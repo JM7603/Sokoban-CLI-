@@ -24,7 +24,7 @@ int main() {
       case RIGHT: Move(0, 1);
         break;
     }
-  } while (ch != 'Q');
+  } while (ch != QUIT);
 
   if (IsWin()) {
     printf("恭喜过关!\n");

@@ -8,14 +8,7 @@ CLI written in C language for Sokoban
 + CLion
 
 ## TODO
-+ Array out of bounds judgment
++ ~~Array out of bounds judgment~~(solved)
 + More levels
 + "Restart" function
 + Reading a map from files
-
-> On Why Arrays Are Out of Bound:
-> 
-> Cause I'm lazy, so
-> 
-> currently, map restrictions have been made to prevent it from crossing the bounds
-> .

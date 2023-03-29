@@ -81,6 +81,10 @@ void Move(int offset_x, int offset_y) {
   int next_y = current_y + offset_y;
   int next_next_x = next_x + offset_x;
   int next_next_y = next_y + offset_y;
+
+  // 提前判断，防止越界
+  if (map[next_x][next_y] == WALL) return;
+
   if (map[next_x][next_y] == BLANK) {
     map[next_x][next_y] += PERSON;
     map[current_x][current_y] -= PERSON;
